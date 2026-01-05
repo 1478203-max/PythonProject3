@@ -6,3 +6,4 @@ last_name = input("Please enter your last name: ")
 
 # Prints the full name by combining both first and last name with a space
 print(first_name + " " + last_name)
+print(f{first_name} {last_name})
