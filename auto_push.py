@@ -1,2 +1,4 @@
-x,y=13,5
-print (x%y)
+x= int(input(what is the value?)
+while x<5:
+    print (value is small)
+print (done)
