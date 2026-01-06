@@ -1,5 +1,5 @@
 x= int(input("what is the value?"))
-if x<5:
+if x<5 and x>0:
     print ("value is small")
 elif x>5:
     print (f" value entered {x} is too high")
