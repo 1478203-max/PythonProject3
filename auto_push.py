@@ -5,5 +5,5 @@ while x<5:
     elif x>5:
     print (f" value entered {x} is too high")
 else:
-    print ("value is big")
+    print ("value is negative")
 print ("done")
