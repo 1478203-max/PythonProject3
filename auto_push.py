@@ -4,3 +4,5 @@
 #print(x[-2] + " " + x[-1] + " " + x[2] + "s")
 #print(s.replace("The", "One"))
 #print(len(s))
+list= [1, 4]
+print(list.insert(1,9)) # [1, 9, 4]
