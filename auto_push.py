@@ -6,5 +6,11 @@
 #print(len(s))
 #list= [1, 4]
 #print(list.insert(1,9)) # [1, 9, 4]
-list= [1, 4].insert(1,9) # [1, 9, 4]
-print(list)
+# Create a list
+numbers = [1, 4]
+
+# Insert 9 at index 1
+numbers.append(1, 9)
+
+# Print the updated list
+print(numbers)
