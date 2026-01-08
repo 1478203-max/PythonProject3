@@ -6,4 +6,5 @@
 #print(len(s))
 #list= [1, 4]
 #print(list.insert(1,9)) # [1, 9, 4]
-[1, 4].insert(1,9) # [1, 9, 4]
+list= [1, 4].insert(1,9) # [1, 9, 4]
+print(list)
