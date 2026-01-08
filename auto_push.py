@@ -10,7 +10,7 @@
 numbers = [1, 4]
 
 # Insert 9 at index 1
-numbers.pop()
+numbers.append()
 
 # Print the updated list
 print(numbers)
