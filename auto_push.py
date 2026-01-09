@@ -22,6 +22,6 @@ ypoints1 = np.array([0, 250])
 xpoints2 = np.array([0, 150])
 ypoints2 = np.array([0, 11])
 
-plt.plot(xpoints1, ypoints1, 'O')
-plt.plot(xpoints2, ypoints2, 'O')
+plt.plot(xpoints1, ypoints1, 'o')
+plt.plot(xpoints2, ypoints2, 'o')
 plt.show()
