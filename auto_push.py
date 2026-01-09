@@ -17,11 +17,11 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-xpoints1 = np.array ([0, 6])
-ypoints1 = np.array([0, 250])
-xpoints2 = np.array([0, 150])
-ypoints2 = np.array([0, 11])
+xpoints1 = np.array ([0, 6, 15, 45])
+ypoints1 = np.array([0, 250, 30, 150])
+xpoints2 = np.array([0, 150, 25, 60])
+ypoints2 = np.array([0, 11, 75, 220])
 
-plt.plot(xpoints1, ypoints1, 'o')
-plt.plot(xpoints2, ypoints2, 'o')
+plt.plot(xpoints1, ypoints1,)
+plt.plot(xpoints2, ypoints2,)
 plt.show()
