@@ -14,11 +14,6 @@
 
 # Print the updated list
 #print(numbers)
-# Create a list
-numbers = [1, 4]
-
-# Insert 9 at index 1
-numbers.insert(1, 9)
-
-# Print the updated list
-print(numbers)
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
