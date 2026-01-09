@@ -15,5 +15,5 @@
 # Print the updated list
 #print(numbers)
 #fruits = ["apple", "banana", "cherry"]
-for x in apple:
+for x in "apple":
   print(x)
