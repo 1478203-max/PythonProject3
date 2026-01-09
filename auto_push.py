@@ -7,10 +7,18 @@
 #list= [1, 4]
 #print(list.insert(1,9)) # [1, 9, 4]
 # Create a list
+#numbers = [1, 4]
+
+# Insert 9 at index 1
+#numbers.append(2)
+
+# Print the updated list
+#print(numbers)
+# Create a list
 numbers = [1, 4]
 
 # Insert 9 at index 1
-numbers.append(2)
+numbers.insert(1, 9)
 
 # Print the updated list
 print(numbers)
