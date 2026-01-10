@@ -23,5 +23,5 @@ xpoints2 = np.array([0, 150, 25, 60])
 ypoints2 = np.array([0, 11, 75, 220])
 
 plt.plot(xpoints1, ypoints1,)
-plt.plot(ypoints2, marker = 'o-')
+plt.plot(ypoints2, 'o-')
 plt.show()
