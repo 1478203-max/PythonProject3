@@ -17,13 +17,13 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-xpoints1 = np.array ([0, 6, 15, 45])
+#xpoints1 = np.array ([0, 6, 15, 45])
 ypoints1 = np.array([0, 250, 30, 150])
-xpoints2 = np.array([0, 150, 25, 60])
+#xpoints2 = np.array([0, 150, 25, 60])
 ypoints2 = np.array([0, 11, 75, 220])
 
 plt.plot(ypoints1, 'o-', mfc='black', mec='black', ms=10)
-plt.plot(ypoints2, 'o:r', mfc='r', mec='g', ms = 10, linestyle = 'dotted')
+plt.plot(ypoints2, mfc='r', mec='g', ms = 10, linestyle = 'dotted')
 
 font1 = {'family':'serif','color':'blue','size':20}
 font2 = {'family':'serif','color':'darkred','size':15}
