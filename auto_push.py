@@ -24,4 +24,13 @@ ypoints2 = np.array([0, 11, 75, 220])
 
 plt.plot(ypoints1, 'o-', mfc='black', mec='black', ms=10)
 plt.plot(ypoints2, 'o:r', mfc='r', mec='g', ms = 10, linestyle = 'dotted')
+
+font1 = {'family':'serif','color':'blue','size':20}
+font2 = {'family':'serif','color':'darkred','size':15}
+
+plt.title("Sports Watch Data", fontdict = font1)
+plt.xlabel("Average Pulse", fontdict = font2)
+plt.ylabel("Calorie Burnage", fontdict = font2)
+
+
 plt.show()
